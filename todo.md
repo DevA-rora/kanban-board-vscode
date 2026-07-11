@@ -53,5 +53,7 @@
 - [x] That's it!!! Submit the ship on macondo.hackclub.com
 
 # Doing
+- [ ] Create minimal landing page (HTML/CSS/JS) with gradient background that moves w/gausian blur
+- [ ] Ship on github pages.
 
 # Todo

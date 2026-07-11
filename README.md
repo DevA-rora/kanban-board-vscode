@@ -43,7 +43,7 @@ So I built this really minimal Kanban board extension for VS Code. This is also 
 
 Bento is now published on the VS Code Marketplace!
 
-To instally, simply search for the "Bento" extension in your VS Code extensions mangager.
+To install, simply search for the "Bento" extension in your VS Code extensions manager.
 
 You can alternatively use the direct link here: [Install Bento From Marketplace](https://marketplace.visualstudio.com/items?itemName=DevArora.bento)
 
@@ -96,6 +96,7 @@ Click a card to focus it first. Shortcuts work in the kanban webview (not VS Cod
 | **Enter** | Start editing title & description |
 | **Tab** / **Shift+Tab** | Switch between title and description while editing |
 | **Escape** | Stop editing |
+| **n** | Add a new card in the focused card's column |
 | **V** + arrow | Move the focused card (within column or into adjacent column) |
 | **Delete** / **Backspace** | Delete the focused card |
 
@@ -172,9 +173,7 @@ See [CHANGELOG.md](CHANGELOG.md) for release history.
 - [x] **v1 polish**: focus ring, long-description wrapping, optimistic sync (no Cmd+S snap-back), instant delete.
 - [x] **Fresh-clone install flow** verified end-to-end.
 - [x] **Macondo ship** submitted on [macondo.hackclub.com](https://macondo.hackclub.com).
-
-### Next up
-- [ ] **Open VSX verified publisher** — namespace ownership claim for `DevArora` (pending).
+- [x] **Open VSX verified publisher**: namespace ownership for `DevArora` is verified and resolved.
 
 ### Out of scope (by design)
 Bento stays minimal. Plain `todo.md`, no extra syntax in the file. Not planning due dates, labels, card colours, or a separate landing page; the README and Marketplace listing are the product page.

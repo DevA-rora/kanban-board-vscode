@@ -1,10 +1,11 @@
 # Done
+- [x] v1.0.0 docs pass: CHANGELOG entry, README typos and shortcuts table, Open VSX verified note, .DS_Store in gitignore
 - [x] Fix linter errors
 - [x] Write journal entry w/dragging + editing.
 - [x] Fix duplication bug where dragging to a new column causes duplication.
 - [x] Move files out of folder (for git repo)
 - [x] Add ability to edit the description too!
-- [x] Render columns even when there are no tasks in them. 
+- [x] Render columns even when there are no tasks in them.
 - [x] Add checkcircle to mark todos as completed/not completed.
 - [x] Optimise animation so it marks cards as completed faster.
 - [x] Fix alignment of circle to be inline with the text
@@ -45,7 +46,7 @@
 - [x] Fix long description bug
 - [x] Test different colour themes
 - [x] Fix card deletion bug (not instantanous sync)
-- [x] Add new keyboard shortcut "n" to make a new card. 
+- [x] Add new keyboard shortcut "n" to make a new card.
 - [x] Polishing & testing...
 - [x] Test the fresh-clone install flow end-to-end
 - [x] Publish to Open VSX registery (to use the extension on open-source VS Code forks)

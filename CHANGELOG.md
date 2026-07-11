@@ -7,15 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-07-11
+
+First stable release. Published on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=DevArora.bento) and [Open VSX Registry](https://open-vsx.org/extension/DevArora/bento).
+
 ### Added
 
-- Title-bar toggle between kanban and markdown views: branded Bento icon on `todo.md` swaps the same tab to the board; file-text icon swaps back.
-- Dynamic toolbar visibility via `setContext` so the toggle reliably appears on `todo.md` (fixes when-clause issues with dotted filenames).
-
-### Planned
-- Extension icon for the Marketplace listing.
+- Title-bar toggle between kanban and markdown on `todo.md`.
+- Dynamic toolbar visibility via `setContext` so the toggle works on dotted filenames.
+- Extension icon (128×128) for the Marketplace listing.
 - Empty-state UI when `todo.md` has no columns.
-- Light-theme styling via VS Code CSS variables.
+- Theme-aware styling via VS Code CSS variables for light, dark, and high-contrast themes.
+- Keyboard shortcut **n** to add a new card in the focused column.
+- Open VSX listing for Cursor, VSCodium, and other VS Code forks.
+- Open VSX verified publisher namespace for `DevArora`.
+
+### Changed
+
+- Optimistic board sync so edits no longer snap back before save.
+
+### Fixed
+
+- Focus ring visibility on the keyboard-focused card.
+- Long description text wrapping on cards.
+- Instant delete sync without waiting for manual save.
 
 ## [0.0.2] - 2026-06-18
 
@@ -42,7 +57,7 @@ First public release on the [VS Code Marketplace](https://marketplace.visualstud
 - Completion toggle on each card (dim + strikethrough).
 - Right-click context menu to delete cards.
 - One-click add for new cards (per column) and new columns (end of board).
-- Two-way sync with `todo.md` — board edits save to markdown; external file edits re-render the board.
+- Two-way sync with `todo.md`. Board edits save to markdown and file edits re-render the board.
 - Theme-aware board styling using the active VS Code theme.
 - **Open Bento Board** command to create or open a starter `todo.md`.
 
@@ -52,6 +67,7 @@ First public release on the [VS Code Marketplace](https://marketplace.visualstud
 - New card exiting edit mode immediately (VS Code auto-save race).
 - Drag-and-drop into empty columns (SortableJS configuration).
 
-[Unreleased]: https://github.com/DevA-rora/Bento/compare/v0.0.2...HEAD
+[Unreleased]: https://github.com/DevA-rora/Bento/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/DevA-rora/Bento/compare/v0.0.2...v1.0.0
 [0.0.2]: https://github.com/DevA-rora/Bento/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/DevA-rora/Bento/releases/tag/v0.0.1

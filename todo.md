@@ -51,9 +51,10 @@
 - [x] Test the fresh-clone install flow end-to-end
 - [x] Publish to Open VSX registery (to use the extension on open-source VS Code forks)
 - [x] That's it!!! Submit the ship on macondo.hackclub.com
+- [x] Create minimal landing page (HTML/CSS/JS) with gradient background that moves w/gausian blur
+- [x] Ship on github pages (enable in repo Settings: branch main, folder /docs)
 
 # Doing
-- [ ] Create minimal landing page (HTML/CSS/JS) with gradient background that moves w/gausian blur
-- [ ] Ship on github pages.
+- [ ] Update releases tab accordingly
 
 # Todo

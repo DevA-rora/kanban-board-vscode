@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-07-11
+
+### Changed
+
+- Updated README with keyboard shortcuts, table, and typo fixes.
+- Added GitHub pages landing page link.
+
 ## [1.0.0] - 2026-07-11
 
 First stable release. Published on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=DevArora.bento) and [Open VSX Registry](https://open-vsx.org/extension/DevArora/bento).

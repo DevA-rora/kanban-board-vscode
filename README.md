@@ -2,6 +2,7 @@
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Marketplace-Install-007ACC?logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=DevArora.bento)
 [![Open VSX](https://img.shields.io/badge/Open%20VSX-Install-6B4FBB)](https://open-vsx.org/extension/DevArora/bento)
+[![Live site](https://img.shields.io/badge/Live%20site-GitHub%20Pages-24292f?logo=github)](https://deva-rora.github.io/Bento/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/DevA-rora/Bento/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Last commit](https://img.shields.io/github/last-commit/DevA-rora/Bento)

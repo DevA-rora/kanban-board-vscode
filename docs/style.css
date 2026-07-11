@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	min-height: 100%;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	overflow-x: hidden;
+}
+
+.gradient-bg {
+	position: fixed;
+	inset: 0;
+	z-index: -1;
+	overflow: hidden;
+	background: linear-gradient(135deg, #007acc 0%, #0a3d62 40%, #22c55e 100%);
+}
+
+.gradient-blob {
+	position: absolute;
+	border-radius: 50%;
+	filter: blur(80px);
+	opacity: 0.75;
+	will-change: transform;
+}
+
+.gradient-blob--blue {
+	width: 55vw;
+	height: 55vw;
+	top: -10%;
+	left: -10%;
+	background: #007acc;
+	animation: driftBlue 18s ease-in-out infinite alternate;
+}
+
+.gradient-blob--green {
+	width: 50vw;
+	height: 50vw;
+	bottom: -15%;
+	right: -10%;
+	background: #22c55e;
+	animation: driftGreen 22s ease-in-out infinite alternate;
+}
+
+.gradient-blob--white {
+	width: 40vw;
+	height: 40vw;
+	top: 35%;
+	left: 35%;
+	background: #ffffff;
+	opacity: 0.45;
+	animation: driftWhite 16s ease-in-out infinite alternate;
+}
+
+@keyframes driftBlue {
+	from {
+		transform: translate(0, 0) scale(1);
+	}
+	to {
+		transform: translate(12vw, 10vh) scale(1.1);
+	}
+}
+
+@keyframes driftGreen {
+	from {
+		transform: translate(0, 0) scale(1);
+	}
+	to {
+		transform: translate(-10vw, -8vh) scale(1.08);
+	}
+}
+
+@keyframes driftWhite {
+	from {
+		transform: translate(0, 0) scale(1);
+	}
+	to {
+		transform: translate(-8vw, 6vh) scale(1.12);
+	}
+}
+
+.carousel-slide {
+	display: none;
+}
+
+.carousel-slide.active {
+	display: block;
+}
+
+.carousel-slide img {
+	width: 100%;
+	height: auto;
+	border-radius: 0.75rem;
+	display: block;
+}
+
+.carousel-btn {
+	transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.carousel-btn:hover {
+	transform: scale(1.05);
+}
+
+.carousel-btn:active {
+	transform: scale(0.97);
+}
+
+.badge-link img {
+	display: inline-block;
+	vertical-align: middle;
+}
